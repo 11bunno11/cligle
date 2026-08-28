@@ -82,7 +82,7 @@ Save results to a chosen directory:
 ```bash
 cligle "latest Python news" -o ./results
 ```
-# Long form:
+Long form:
 ```bash
 cligle "latest Python news" --output ./results
 ```
