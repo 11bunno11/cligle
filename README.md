@@ -32,10 +32,6 @@ No third-party Python packages are required.
 
 ## Usage
 
-```bash
-cligle "python argparse tutorial"
-```
-
 After installing the package, the same command is available from anywhere:
 
 ```bash
