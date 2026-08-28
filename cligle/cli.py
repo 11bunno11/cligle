@@ -16,7 +16,7 @@ from urllib.parse import parse_qsl, quote, urlencode, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 
-DEFAULT_ENDPOINT = "https://serpapi.com/search.html"
+DEFAULT_ENDPOINT = "https://serpapi.com/search.json"
 DEFAULT_ENGINE = "google"
 RESULTS_PER_PAGE = 10
 DEFAULT_TIMEOUT = 30
