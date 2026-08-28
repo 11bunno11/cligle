@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cligle"
+version = "1.0.0"
+authors = [
+  { name="11bunno11", email="11bunno11@gmail.com" },
+]
+description = "CLI based Google search client utilizing SerpAPI. Keys not Included."
+requires-python = ">=3.11"
+readme = { file = "README.md", content-type = "text/markdown" }
+license = "AGPL-3.0-or-later"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Topic :: Utilities"
+]
+
+[project.scripts]
+tbflingr = "tbflingr.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/11bunno11/cligle"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tbflingr*"]
