@@ -22,7 +22,7 @@ classifiers = [
 ]
 
 [project.scripts]
-tbflingr = "tbflingr.cli:main"
+cligle = "cligle.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/11bunno11/cligle"
