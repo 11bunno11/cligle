@@ -1,11 +1,16 @@
 # cligle
 
-`cligle` is a small Python command-line search program. It sends requests in
+`cligle` is a small Python command-line based Google search program. It sends requests in
 this shape to SerpAPI:
 
 ```text
 https://serpapi.com/search.html?engine=google&start=[NUM]&q=[QUERY]&api_key=[API_KEY]
 ```
+Perfect for people who don't want to leave the terminal to search. Available on PyPI.
+
+![PyPI Version](https://img.shields.io/pypi/v/cligle)
+
+
 
 ## Setup
 
